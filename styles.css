@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Aref+Ruqaa&display=swap');
+
+* {
+    text-align: center;
+    margin:0;
+    font-family: 'Aref Ruqaa';
+    
+}
+html{
+  height: auto;
+  width: auto;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+body {
+    background: rgb(194,121,244);
+    background: linear-gradient(180deg, rgba(194,121,244,1) 0%, rgba(255,184,55,1) 100%);
+    background-size:cover;
+}
+
+header h1 {
+    font-size: 50px;
+    
+}
+
+header {
+  padding-bottom: 50px;
+}
+
+.button {
+    display: inline-block;
+    border-radius: 4px;
+    background-color: #f4511e;
+    border: none;
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 28px;
+    padding: 20px;
+    width: 200px;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin: 5px;
+  }
+  
+  .button span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+  }
+  
+  .button span:after {
+    content: '\00AB';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    left: -20px;
+    transition: 0.5s;
+  }
+  
+  .button:hover span {
+    padding-left: 25px;
+  }
+  
+  .button:hover span:after {
+    opacity: 1;
+    left: 0;
+  }
+
+#shahid {
+    background-color: rgb(0, 0, 0);
+  }
+
+#tfa7 {
+  background: rgb(112,58,58);
+  background: radial-gradient(circle, rgba(112,58,58,1) 0%, rgba(255,0,63,1) 76%);
+  }
+
+#moz {
+  background: rgb(254,221,0);
+background: radial-gradient(circle, rgba(254,221,0,1) 0%, rgba(255,252,201,1) 100%);
+  }
+
+#anb  {
+  background: rgb(74,72,106);
+  background: radial-gradient(circle, rgba(74,72,106,1) 0%, rgba(152,148,210,1) 55%);
+}
+
+#brt8al {
+  background: rgb(161,94,2);
+background: radial-gradient(circle, rgba(161,94,2,1) 0%, rgba(255,147,0,1) 72%);
+}
+
+#b7b {
+  background: rgb(134,59,71);
+background: radial-gradient(circle, rgba(134,59,71,1) 0%, rgba(242,138,154,1) 100%);
+}
